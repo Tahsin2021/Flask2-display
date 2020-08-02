@@ -3,7 +3,7 @@ Display data from restaurant database using Flask
 
 # How to use this repository
 Please remember that you must extract and then open the entire folder in Visual Studio Code (or your chosen editor).
-You may find that the file restaurant.db is not in the right place. You will be able to tell if it has created a new file called restaurant.db.
+You may find that the file restaurant.db is not in the right place. You will be able to tell if it has created a new file called restaurant.db (you don't want this, but the new file is exactly where your real copy of restaurant.db *should* go!)
 
 # To do
 1. Always try to understand the code before running it. 
