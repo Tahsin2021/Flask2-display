@@ -17,6 +17,6 @@ def main():
     # I'm not making any changes to the database, so no need to commit
     # I do need to close the connection though
     db.close()
-    return render_template('table.html', myList=myList)
+    return render_template('list.html', myList=myList)
 
 app.run(debug=True)
