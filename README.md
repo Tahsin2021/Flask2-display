@@ -12,6 +12,8 @@ You may find that the file restaurant.db is not in the right place. You will be 
 4. The data displayed on the page list.html is not very user-friendly. What could you do to make it easier to read? 
 5. Read and try to understand table.html
 6. Change the code in viewall.py so that instead of showing the template called list.html it shows table.html. What has changed?
-7. Alter the SQL statement so that you order the results by category. Screenshot both your query and your result in a Google Doc. 
-8. Alter the SQL statement again so that you order the results so that they are from lowest to highest price. Screenshot both your query and result in a Google Doc. 
-9. Do some research to determine how you would add a new record to your database. Don't forget to commit the results! Screenshot your insert statement and the view which should now show your new entry. 
+7. I have made a mistake in this code. It was meant to show the price! Can you fix it?
+8. Price should have 2 decimal places. To do this in Jinja, we use the following syntax: {{ "$%.2f"|format(price) }} See if you can work out how to format the price properly. 
+9. Alter the SQL statement so that you order the results by category. Screenshot both your query and your result in a Google Doc. 
+10. Alter the SQL statement again so that you order the results so that they are from lowest to highest price. Screenshot both your query and result in a Google Doc. 
+11. Do some research to determine how you would add a new record to your database. Don't forget to commit the results! Screenshot your insert statement and the view which should now show your new entry. 
